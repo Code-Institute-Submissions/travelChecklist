@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
+    <link rel="stylesheet" href="asset/css/style.css" type="text/css">
+    
+    
+        
+    <title>Travel Checklist</title>
+</head>
+
+<body>
+    <div class="bg-color">
+    <header>
+        
+            <div class="row no-gutters">
+                <div class="col-md-2 col-xs-0"></div>
+                <a href="index.html" class="col-md-2 col-xs-3"><img src="asset/images/logo001.png" alt="logo" class="logo"/></a>
+                <div class="col-md-5 col-xs-7"></div>
+                <div class="col-md-2 col-sx-2">
+                    <div class="dropdown pull-right">
+                        <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Foreign Exchange</a>
+                            <a href="#">Forecast</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-xs-0"></div>
+            </div>
+            <div class="container">
+        
+        <h2>Currency Exchange Location</h2>
+        <div id="map"></div>
+    </div>
+    </header>
+    </div>
+    
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB32VM6pEZtF7JucUmvcjwf_3WCSdwhBv4&callback=initMap"></script>
+    <script src="scripts/maps.js"></script>
+    
+
+</body>
+
+</html>

@@ -5,6 +5,16 @@ html {
   height: 100%;
 }
 
+.logo {
+  height: 150px;
+  margin-left: 10%;
+}
+
+.foreignExchange {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
 .bg-color {
   background-image: url("../images/background.jpg");
   height: 100%;
@@ -15,55 +25,9 @@ html {
   background-size: cover;
 }
 
-.dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  margin-top: 20px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-  margin-right: 5%;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 0;
-  background-color: #f1f1f1;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd
-}
-
-.show {
-  display: block;
-}
-
-.dropbtn:hover,
-.dropbtn:focus {
-  background-color: #2980B9;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+/*--------------------------------------------------------------Middle Container**/
 
 .container {
   width: 100%;
@@ -81,16 +45,21 @@ html {
   overflow-x: none;
 }
 
+/*--------------------------------------------------------------Question Button**/
+
 .btn {
   height: 350px;
   border-color: #aaa;
 }
+
+/*--------------------------------------------------------------Question Title**/
 
 h2 {
   text-align: center;
   font-family: Exo, sans-serif;
 }
 
+/*--------------------------------------------------------------Checklist**/
 
 .container-checklist {
   display: block;
@@ -152,6 +121,26 @@ h2 {
   transform: rotate(45deg);
 }
 
-h3 {
-  text-align: left;
+/*--------------------------------------------------------------footer**/
+
+.footerbtn {
+  float: right;
+  margin-right: 20%;
+  padding: 15px;
+  border-radius: 9px;
+  background-color: #8b78a7;
+  color: black;
+  opacity: 0.8;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footerbtn:hover {opacity: 1}
+
+
+/*---------------------------------------------------------------media**/
+@media only screen and (max-width: 600px) {
+  .container {height: 70%;}
+  .logo {height: 100px;}
 }
