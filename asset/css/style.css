@@ -86,11 +86,11 @@ h2 {
   background-color: #eee;
 }
 
-.container-checklist:hover input ~ .checkmark {
+.container-checklist:hover input~.checkmark {
   background-color: #ccc;
 }
 
-.container-checklist input:checked ~ .checkmark {
+.container-checklist input:checked~.checkmark {
   background-color: #2196F3;
 }
 
@@ -100,7 +100,7 @@ h2 {
   display: none;
 }
 
-.container-checklist input:checked ~ .checkmark:after {
+.container-checklist input:checked~.checkmark:after {
   display: block;
 }
 
@@ -120,7 +120,7 @@ h2 {
 
 .footerbtn {
   float: right;
-  margin-right: 3px;
+  margin-right: 15%;
   padding: 15px;
   border-radius: 9px;
   background-color: #8b78a7;
@@ -131,13 +131,15 @@ h2 {
   cursor: pointer;
 }
 
-.footerbtn:hover {opacity: 1}
+.footerbtn:hover {
+  opacity: 1
+}
 
 /*-------------------------------------------------------------done btn**/
 
 .donebtn {
   float: right;
-  margin-right: 15%;
+  margin-right: 3px;
   padding: 15px 20px;
   border-radius: 9px;
   background-color: #8b78a7;
@@ -149,7 +151,8 @@ h2 {
 }
 
 .donebtn:hover {
-  opacity: 1;;
+  opacity: 1;
+  ;
 }
 
 a {
@@ -161,11 +164,20 @@ a:hover {
 }
 
 /*---------------------------------------------------------------media**/
+
 @media only screen and (max-width: 600px) {
-  .container {height: 70%;}
-  .logo {height: 100px;}
-  .ready2go {width: 150px;}
+  .container {
+    height: 70%;
+  }
+  .logo {
+    height: 100px;
+  }
+  .ready2go {
+    width: 150px;
+  }
 }
+
+/*---------------------------------------------------------------map**/
 
 div#map {
   min-height: 350px;
@@ -176,6 +188,8 @@ div#map {
 .map-location {
   float: left;
 }
+
+/*---------------------------------------------------------------donepage**/
 
 h3 {
   text-align: center;
