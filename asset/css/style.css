@@ -165,3 +165,13 @@ a:hover {
   .container {height: 70%;}
   .logo {height: 100px;}
 }
+
+div#map {
+  min-height: 350px;
+  width: 50%;
+  float: right;
+}
+
+.map-location {
+  float: left;
+}
