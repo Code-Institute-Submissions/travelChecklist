@@ -164,11 +164,12 @@ a:hover {
 @media only screen and (max-width: 600px) {
   .container {height: 70%;}
   .logo {height: 100px;}
+  .ready2go {width: 150px;}
 }
 
 div#map {
   min-height: 350px;
-  width: 50%;
+  width: 100%;
   float: right;
 }
 
