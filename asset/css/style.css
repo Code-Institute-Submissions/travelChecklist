@@ -10,11 +10,6 @@ html {
   margin-left: 10%;
 }
 
-.foreignExchange {
-  margin-left: 5%;
-  margin-top: 5%;
-}
-
 .bg-color {
   background-image: url("../images/background.jpg");
   height: 100%;
@@ -125,7 +120,7 @@ h2 {
 
 .footerbtn {
   float: right;
-  margin-right: 20%;
+  margin-right: 3px;
   padding: 15px;
   border-radius: 9px;
   background-color: #8b78a7;
@@ -138,6 +133,32 @@ h2 {
 
 .footerbtn:hover {opacity: 1}
 
+/*-------------------------------------------------------------done btn**/
+
+.donebtn {
+  float: right;
+  margin-right: 15%;
+  padding: 15px 20px;
+  border-radius: 9px;
+  background-color: #8b78a7;
+  color: black;
+  opacity: 0.8;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.donebtn:hover {
+  opacity: 1;;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
 
 /*---------------------------------------------------------------media**/
 @media only screen and (max-width: 600px) {
